@@ -1,16 +1,6 @@
-<p align="center">
-  <img width="250" height="250" src="https://raw.githubusercontent.com/museofficial/muse/master/.github/logo.png">
-</p>
 
-> [!WARNING]
-> I ([@codetheweb](https://github.com/codetheweb)) am no longer the primary maintainer of Muse. **If you use the Docker image, update your image source to `ghcr.io/museofficial/muse`.** We are currently publishing new releases to both `ghcr.io/museofficial/muse` and `codetheweb/muse`, but this may change in the future.
-> Thank you to all the people who stepped up to help maintain Muse!
 
-------
-
-Muse is a **highly-opinionated midwestern self-hosted** Discord music bot **that doesn't suck**. It's made for small to medium-sized Discord servers/guilds (think about a group the size of you, your friends, and your friend's friends).
-
-![Hero graphic](.github/hero.png)
+#### Crin.j discord bot repository based on Muse source code.
 
 ## Features
 
@@ -27,25 +17,11 @@ Muse is a **highly-opinionated midwestern self-hosted** Discord music bot **that
 
 ## Running
 
-Muse is written in TypeScript. You can either run Muse with Docker (recommended) or directly with Node.js. Both methods require API keys passed in as environment variables:
+### Environment variables:
 
 - `DISCORD_TOKEN` can be acquired [here](https://discordapp.com/developers/applications) by creating a 'New Application', then going to 'Bot'.
 - `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` can be acquired [here](https://developer.spotify.com/dashboard/applications) with 'Create a Client ID'.
 - `YOUTUBE_API_KEY` can be acquired by [creating a new project](https://console.developers.google.com) in Google's Developer Console, enabling the YouTube API, and creating an API key under credentials.
-
-> [!WARNING]
-> Even if you don't plan on using Spotify, you must still provide the client ID and secret; otherwise Muse will not function.
-
-Muse will log a URL when run. Open this URL in a browser to invite Muse to your server. Muse will DM the server owner after it's added with setup instructions.
-
-A 64-bit OS is required to run Muse.
-
-### Versioning
-
-The `master` branch acts as the developing / bleeding edge branch and is not guaranteed to be stable.
-
-When running a production instance, I recommend that you use the [latest release](https://github.com/museofficial/muse/releases/).
-
 
 ### 🐳 Docker
 
