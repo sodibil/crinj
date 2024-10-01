@@ -4,6 +4,7 @@ primary_region = "cdg"
 [env]
 BOT_ACTIVITY = "Domestic na Kanojo"
 BOT_ACTIVITY_TYPE = "WATCHING"
+BOT_ACTIVITY_URL= "https://kaido.to/watch/domestic-girlfriend-4219?ep=37054"
 BOT_STATUS = "dnd"
 CACHE_LIMIT = "128MB"
 DATA_DIR = "./data"
