@@ -8,6 +8,7 @@ BOT_STATUS = "dnd"
 CACHE_LIMIT = "128MB"
 DATA_DIR = "./data"
 ENABLE_SPONSORBLOCK = true
+SPONSORBLOCK_TIMEOUT = "5"
 
 [http_service]
 auto_start_machines = true
