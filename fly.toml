@@ -1,0 +1,22 @@
+app = "crinj"
+primary_region = "cdg"
+
+[env]
+BOT_ACTIVITY = "Domestic na Kanojo"
+BOT_ACTIVITY_TYPE = "WATCHING"
+BOT_STATUS = "dnd"
+CACHE_LIMIT = "128MB"
+DATA_DIR = "./data"
+DISCORD_TOKEN = "ODg3Mzg0MzA0Nzc3MzIyNTc2.GafUSa.bL5BmIk0jkjPwiluNN_NWW01LuY2CmqRoPi4gk"
+SPOTIFY_CLIENT_ID = "6c575afe03634fd7a675b4864caad375"
+SPOTIFY_CLIENT_SECRET = "d3a855fa0bc54924841dfdf6c17d43c3"
+YOUTUBE_API_KEY = "AIzaSyBlGXCEcOUljhZbL3UX1ORCVgi43ZLGRT0"
+ENABLE_SPONSORBLOCK = true
+
+[http_service]
+auto_start_machines = true
+auto_stop_machines = false
+force_https = true
+internal_port = 8_080
+min_machines_running = 0
+processes = [ "app" ]
