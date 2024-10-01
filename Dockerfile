@@ -1,3 +1,5 @@
+FROM ghcr.io/museofficial/muse:pr-1101
+
 FROM node:18-bullseye-slim AS base
 
 # openssl will be a required package if base is updated to 18.16+ due to node:*-slim base distro change
