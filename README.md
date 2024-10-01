@@ -1,6 +1,6 @@
 
 
-<h1 style="text-align:center;">Crin.J Discord Bot Repository based on the Muse bot.</h1>
+<h1 align="center">Crin.J Discord Bot Repository based on the Muse bot.</h1>
 
 ## Features
 
