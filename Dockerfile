@@ -1,6 +1,6 @@
-FROM ghcr.io/museofficial/muse:pr-1101
-
 FROM node:18-bullseye-slim AS base
+
+FROM ghcr.io/museofficial/muse:pr-1101
 
 # openssl will be a required package if base is updated to 18.16+ due to node:*-slim base distro change
 # https://github.com/prisma/prisma/issues/19729#issuecomment-1591270599
