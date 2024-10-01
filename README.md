@@ -1,6 +1,6 @@
 
 
-#### Crin.j discord bot repository based on Muse source code.
+<h1 style="text-align:center;">Crin.J Discord Bot Repository based on the Muse bot.</h1>
 
 ## Features
 
