@@ -1,5 +1,5 @@
 app = "crinj"
-primary_region = "cdg"
+primary_region = "ams"
 swap_size_mb = 512
 
 
@@ -24,4 +24,4 @@ processes = [ "app" ]
 
 [vm]
 size = "shared-cpu-1x"
-memory = "700mb"
+memory = "768mb"
